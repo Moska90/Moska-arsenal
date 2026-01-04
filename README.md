@@ -3,22 +3,22 @@ This is my very first mod, I'll be adding random things that I want/like so that
 ---
 ### Custom items
 
-1. Voidreaper (Mace)
+1. Crimsonreaper (Mace)
 
 	This weapon straight from hell adds +5 Hearts when on inventory
 	
-	![](/Images/void_reaper.png)
+	![](/Images/crimson_reaper.png)
 2. Crimsonite (Ingot)
 
-	![[crimsonite.png]]
+	![](/Images/crimsonite.png)
 3. Voidreaper (Mace v2)
 
 	This void infused weapons adds +10 Hearts when on inventory
 	
-	![[void_reaper.png]]
+	![](/Images/void_reaper.png)
 4. Void Smithing Template
 
-	![[void_upgrade.png]]
+	![](/Images/void_upgrade.png)
 
 ---
 ### Possible ideas
