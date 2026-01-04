@@ -7,7 +7,7 @@ This is my very first mod, I'll be adding random things that I want/like so that
 
 	This weapon straight from hell adds +5 Hearts when on inventory
 	
-	![](/Images/voidreaper.png)
+	![](/Images/void_reaper.png)
 2. Crimsonite (Ingot)
 
 	![[crimsonite.png]]
