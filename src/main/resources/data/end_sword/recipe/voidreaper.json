@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "end_sword:crimsonreaper",
+  "addition": "minecraft:dragon_breath",
+  "template": "end_sword:void_upgrade_smithing_template",
+  "result": {
+    "count": 1,
+    "id": "end_sword:voidreaper"
+  }
+}
