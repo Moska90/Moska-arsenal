@@ -9,7 +9,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class PlayerTickHandler {
-    private static final ResourceLocation MODIFIER_ID = ResourceLocation.fromNamespaceAndPath("end_sword", "mace_health_boost");
+    private static final ResourceLocation MODIFIER_ID = ResourceLocation.fromNamespaceAndPath("moska_arsenal", "mace_health_boost");
 
     public static void register() {
         ServerTickEvents.END_SERVER_TICK.register(server -> {

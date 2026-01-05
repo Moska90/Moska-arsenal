@@ -1,6 +1,6 @@
 package name.modid.item;
 
-import name.modid.End_sword;
+import name.modid.Moska_arsenal;
 import net.minecraft.world.item.ToolMaterial;
 
 public class MaceItem extends net.minecraft.world.item.MaceItem {

@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"end_sword" {
+		"moska_arsenal" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

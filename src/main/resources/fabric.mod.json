@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "end_sword",
+	"id": "moska_arsenal",
 	"version": "${version}",
-	"name": "end_sword",
+	"name": "moska_arsenal",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/end_sword/icon.png",
+	"icon": "assets/moska_arsenal/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.End_sword"
+			"name.modid.Moska_arsenal"
 		],
 		"client": [
-			"name.modid.End_swordClient"
+			"name.modid.Moska_arsenalClient"
 		]
 	},
 	"mixins": [
-		"end_sword.mixins.json",
+		"moska_arsenal.mixins.json",
 		{
-			"config": "end_sword.client.mixins.json",
+			"config": "moska_arsenal.client.mixins.json",
 			"environment": "client"
 		}
 	],

@@ -1,6 +1,6 @@
 package name.modid.item;
 
-import name.modid.End_sword;
+import name.modid.Moska_arsenal;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -18,7 +18,7 @@ import static name.modid.item.ModToolMaterials.VOIDGLASS_TOOL_MATERIAL;
 public class ModItems {
     public static <GenericItem extends Item> GenericItem register(String name, Function<Item.Properties, GenericItem> itemFactory, Item.Properties settings) {
         // Create the item key.
-        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(End_sword.MOD_ID, name));
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Moska_arsenal.MOD_ID, name));
 
         // Create the item instance.
         GenericItem item = itemFactory.apply(settings.setId(itemKey));
