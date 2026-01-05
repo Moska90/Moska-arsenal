@@ -16,10 +16,13 @@ public class ModItemGroups {
                     .title(Component.translatable("itemGroup.moska_arsenal.custom_group"))
                     .icon(() -> new ItemStack(ModItems.VOIDREAPER))
                     .displayItems((itemDisplayParameters, output) -> {
-                        // Add your items here
-                        output.accept(ModItems.CRIMSONITE);
                         output.accept(ModItems.CRIMSONREAPER);
                         output.accept(ModItems.VOIDREAPER);
+                        output.accept(ModItems.ATOMSPLIT_KATANA);
+
+
+                        output.accept(ModItems.CRIMSONITE);
+
                         output.accept(ModItems.VOID_UPGRADE_SMITHING_TEMPLATE);
                     })
                     .build()

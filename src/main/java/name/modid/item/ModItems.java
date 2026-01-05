@@ -1,13 +1,13 @@
 package name.modid.item;
 
 import name.modid.Moska_arsenal;
+import name.modid.item.custom.SpeedKatana;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 
 import java.util.function.Function;
@@ -29,19 +29,31 @@ public class ModItems {
         return item;
     }
 
-    public static final Item CRIMSONITE = register("crimsonite", Item::new, new Item.Properties().stacksTo(1));
+    public static final Item CRIMSONITE = register("crimsonite", Item::new,
+            new Item.Properties()
+                    .stacksTo(1)
+    );
     public static final Item VOID_UPGRADE_SMITHING_TEMPLATE = register("void_upgrade_smithing_template", Item::new, new Item.Properties());
 
     public static final Item CRIMSONREAPER = register(
             "crimsonreaper",
             properties -> new MaceItem(CRIMSONITE_TOOL_MATERIAL, properties),
-            new Item.Properties().enchantable(CRIMSONITE_TOOL_MATERIAL.enchantmentValue())
+            new Item.Properties()
+                    .sword(CRIMSONITE_TOOL_MATERIAL, 3, -2.4f)
     );
 
     public static final Item VOIDREAPER = register(
             "voidreaper",
             properties -> new MaceItem(VOIDGLASS_TOOL_MATERIAL, properties),
-            new Item.Properties().enchantable(VOIDGLASS_TOOL_MATERIAL.enchantmentValue())
+            new Item.Properties()
+                    .enchantable(VOIDGLASS_TOOL_MATERIAL.enchantmentValue())
+    );
+
+    public static final Item ATOMSPLIT_KATANA = register(
+            "atomsplit_katana",
+            properties -> new SpeedKatana(CRIMSONITE_TOOL_MATERIAL, properties),
+            new Item.Properties()
+                    .sword(CRIMSONITE_TOOL_MATERIAL, 7.5f, -2.4f)
     );
 
     public static void initialize() {

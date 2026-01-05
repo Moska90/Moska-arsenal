@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "moska_arsenal:item/atomsplit_katana"
+  }
+}
