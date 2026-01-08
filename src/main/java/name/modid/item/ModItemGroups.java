@@ -20,8 +20,10 @@ public class ModItemGroups {
                         output.accept(ModItems.VOIDREAPER);
                         output.accept(ModItems.ATOMSPLIT_KATANA);
 
+                        output.accept(ModItems.DRAGON_HELMET);
 
                         output.accept(ModItems.CRIMSONITE);
+                        output.accept(ModItems.COMPACT_PEARL);
 
                         output.accept(ModItems.VOID_UPGRADE_SMITHING_TEMPLATE);
                     })

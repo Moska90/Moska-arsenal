@@ -2,13 +2,13 @@ package name.modid.item;
 
 import name.modid.Moska_arsenal;
 import name.modid.item.custom.SpeedKatana;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Function;
 
@@ -34,6 +34,7 @@ public class ModItems {
                     .stacksTo(1)
     );
     public static final Item VOID_UPGRADE_SMITHING_TEMPLATE = register("void_upgrade_smithing_template", Item::new, new Item.Properties());
+    public static final Item COMPACT_PEARL = register("compact_pearl", Item::new, new Item.Properties().stacksTo(1));
 
     public static final Item CRIMSONREAPER = register(
             "crimsonreaper",
@@ -54,6 +55,13 @@ public class ModItems {
             properties -> new SpeedKatana(CRIMSONITE_TOOL_MATERIAL, properties),
             new Item.Properties()
                     .sword(CRIMSONITE_TOOL_MATERIAL, 7.5f, -2.4f)
+    );
+
+    public static final Item DRAGON_HELMET = register(
+            "dragon_helmet",
+            Item::new,
+            new Item.Properties().humanoidArmor(ModArmorMaterials.DRAGON_ARMOR_MATERIAL, ArmorType.HELMET)
+                    .durability(ArmorType.HELMET.getDurability(ModArmorMaterials.BASE_DURABILITY))
     );
 
     public static void initialize() {
