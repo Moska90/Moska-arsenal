@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABA",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": "moska_arsenal:crimsonite",
+    "B": "minecraft:netherite_block",
+    "C": "minecraft:diamond_block",
+    "D": "minecraft:mace"
+  },
+  "result": {
+    "count": 1,
+    "id": "moska_arsenal:crimsonreaper"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "moska_arsenal:crimsonreaper",
+  "addition": "minecraft:dragon_breath",
+  "template": "moska_arsenal:void_upgrade_smithing_template",
+  "result": {
+    "count": 1,
+    "id": "moska_arsenal:voidreaper"
+  }
+}

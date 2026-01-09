@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": "minecraft:blaze_powder",
+    "B": "minecraft:fire_charge",
+    "C": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "moska_arsenal:crimsonite"
+  }
+}
